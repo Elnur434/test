@@ -85,3 +85,27 @@
    display: flex;
    margin-top: 50px;
 }
+/* footer */
+.footer{
+   width: 1110px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 40px;
+   background: #f0f0f0;
+}
+.footer__text{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+}
+.footer__text p{
+   font-size: 16px;
+   color: #808080;
+}
+.footer__text a{
+   font-size: 25px;
+   font-weight: 700;
+   color: #808080;
+}
